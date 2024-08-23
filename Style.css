@@ -1,0 +1,549 @@
+*{
+    margin: px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar {
+    height: 3.75rem;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo {
+    height: 3.125rem;
+    width: 8.125rem;
+}
+.logo{
+    background-image: url("amazonlogo.png");
+    background-size: cover;
+    height: 2.6rem;
+    
+    width: 5.8rem;
+}
+.border {
+    border: 0.094rem solid transparent;
+}
+.border:hover {
+    border: 0.063rem solid white;
+}
+
+
+/* box2 */
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 0.94rem;
+
+}
+.add-second{
+    font-size: 0.90rem;
+    margin-left: 0.18rem;
+
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+ 
+  
+
+    /* box3 */
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 1.875rem;
+    width: 38.75rem;
+    height: 2.813rem;
+    border-radius: 0.25rem;
+}
+.nav-search:hover{
+    border: 2px solid #fa920b;
+    border-radius:0.25rem ;
+}
+
+.search-select{
+    background-color: #f3f3f3f3;
+    width: 3.125rem;
+    text-align: center;
+    border-top-left-radius: 0.25rem ;
+    border-bottom-left-radius: 0.25rem ;
+}
+.search-icon{
+    width: 45px;
+    background-color:#febd69;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 5px;
+    font-size: 1.5rem;
+    color: #0f1111;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+/* box 4 */
+span{
+    font-size: 0.7rem;
+}
+.nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* box 5 */
+span{
+    font-size: 0.7rem;
+}
+.nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* Box 6 */
+.nav-cart i {
+font-size: 1.875rem;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+
+           /*pannel box 1 */
+
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.pannel{
+        height: 2.8rem;
+        background-color: #222f3d;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+.pannel-all{
+    display: flex;
+}
+
+    .all2{
+        font-size: 0.9rem;
+        font-weight: 700;
+        margin-left: 0.44rem
+    }
+
+/* box 2 */
+
+.pannel-options p {
+    display: inline; 
+    margin-left: 0.938rem;
+}
+
+.pannel-options{
+    width: 70%;
+    font-size: 0.85rem;  
+}
+
+/* hero section */
+
+.hero-section{
+    background-image: url(Hero_1.jpg);
+    height: 37.5rem;
+    background-size: cover;
+}
+
+/* shop section */
+
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(29, 26, 26);
+    padding: 0.313rem;
+}
+.box{
+    border: 0.125rem solid black;
+    height: 31.25rem;
+    width: 24%;
+    background-color: rgb(255, 255, 255);
+    padding: 1.25rem 0rem 0.938rem;
+}
+
+/* product 1  */
+
+.p1b1{
+    height: 25.625rem;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0.5rem;
+    margin-bottom: 0.95rem; 
+}
+
+.box-content{
+    margin: 0.85rem 1rem 0.938rem 1rem;
+}
+.box h2{
+    text-align: center;
+}
+
+/* Fotter Pannel 1 */
+.backtotop{
+    background-color: #37475a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 100%;
+}
+
+.backtotop a{
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+    font-size: 0.813rem;
+}
+
+/* Fotter Pannel 2 */
+
+.footer-content{
+    background-color: #222f3d;
+     height: 18.75rem;
+     display: flex;
+     justify-content: space-evenly;
+     padding-top: 5rem;
+}
+.footer-content a{
+    color: white;
+    text-decoration: none;
+    padding-top: 0.313rem;
+    padding-bottom: 0.313rem;
+}
+
+
+ul a{
+    display: block;
+
+}
+.footerhead{
+    font-weight: 700;
+}
+
+/* Footer Pannel 3 */
+
+.footer-pannel-3{
+    color: white;
+    background-color: #222f3d;
+    border-top: 0.019rem solid white;
+    height: 6.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-1{
+    background-image: url("amazonlogo.png");
+    background-size: cover;
+    height: 2.2rem;
+    width: 5.1rem;
+    
+}
+
+/* Footer pannel 4 */
+
+.foot-pannel-4 {
+    height: 7.813rem;
+    color: white;
+    background-color: #131a22;
+    text-align: center;
+}
+.pages{
+    font-size: 0.8rem;
+    padding-top: 1.563rem;
+}
+
+/* text padding */
+
+.pages a{
+    display: inline;
+    padding-left: 0.625rem;
+}
+
+.copyright{
+    font-size: 0.5rem;
+    padding-top: 0.938rem;
+}
+
+.website-clonner{
+    font-size: 0.8rem;
+    padding-top: 1.563rem;
+}
+
+/* Mobile Devices (up to 767px) */
+@media (max-width: 600px){
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .nav-address {
+        padding: 0 0.4rem 0 0.4rem;
+    }
+    .nav-signin{
+        padding: 0 0.3rem 0 1rem;
+    }
+    .nav-cart{
+        display: flex;
+        padding: 0 1rem 0 .8rem;
+    }
+
+    .fa-cart-shopping{
+        padding: 0 .4rem 0 .8rem;
+    }
+    
+    .nav-logo {
+        width: 5rem;
+    }
+
+    .logo {
+        height: 2rem;
+        width: auto;
+    }
+
+    .hero-section{
+        height: 15rem;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        padding-bottom: 0;
+    }
+
+    .nav-search {
+        height: 2rem;
+        width: 40%;
+        margin: 1rem 0;
+        align-items: stretch;
+    }
+    
+    .pannel{
+        height: 3rem;
+    }
+
+    .fa-solid{
+        margin-left: 14px;
+    }
+    .all2{
+        font-size: 0.9rem;
+        font-weight: 700;
+        margin-left: .8rem
+    }
+
+    .pannel-deals{
+        text-align: center;
+        font-size: .8rem;
+    }
+
+    .pannel-options {
+        font-size: .8rem;
+        line-height: 1rem;
+    }
+.nav
+    .search-select, .search-icon {
+        width: 10%;
+        font-size: 1.2rem;
+    }
+
+    .search-input {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .shop-section {
+        flex-direction: column;
+        padding: 0.8rem;
+    }
+
+    .box {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .p1b1 {
+        height: 28rem;
+        width: 100%;
+        margin-bottom: 0.9rem;
+
+    }
+
+    .box-content {
+        margin: 0.5rem 3rem;
+    }
+
+    .box h2 {
+        font-size: 1.4rem;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        height: auto;
+        padding-top: 2rem;
+    }
+
+    .footer-content a {
+        padding: 0.8rem 0;
+    }
+
+    .footerhead {
+        font-size: 1.3rem;
+    }
+
+    .footer-pannel-3 {
+        height: auto;
+        padding: 1rem;
+    }
+
+    .logo-1 {
+        height: 1.9rem;
+    }
+
+    .foot-pannel-4 {
+        height: auto;
+        padding: 1rem;
+    }
+
+    .pages {
+        font-size: 0.7rem;
+        padding-top: 1rem;
+    }
+
+    .copyright, .website-clonner {
+        font-size: 0.7rem;
+        padding-top: 1rem;
+    }
+}
+
+
+
+/* Devices with screen size 820x1180 */
+
+@media (min-width: 768px) and (max-width: 820px) and (max-height: 1180px) {
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 0 2rem;
+    }
+
+    .nav-logo {
+        width: 8rem;
+    }
+
+    .logo {
+        height: 3rem;
+        width: auto;
+    }
+
+    .hero-section {
+        height: 25rem;
+        width: 10rem;
+        background-size: cover;
+        padding-bottom: 0rem;
+        
+    }
+
+    .nav-search {
+        height: 1rem;
+        width: 40%;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 1.8rem 0;
+        align-items: center;
+    }
+    .pannel{
+        height: 80px;
+    }
+    .pannel-options {
+        font-size: 0.8rem;
+        justify-content: space-around;
+        margin: 0.5rem 0rem 1rem 0rem;
+        padding-top: 20px;
+        line-height: 28px;
+        align-items: center;
+    }
+
+    .search-select, .search-icon {
+        height: 1.5rem;
+        width: 20%;
+        font-size: 1rem;
+    }
+
+    .search-input {
+        width: 85%;
+        font-size: 1.2rem;
+    }
+
+    .shop-section {
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 1.5rem;
+    }
+
+    .box {
+        width: 50%;
+        height: 0px;
+        margin-bottom: 2rem;
+    }
+
+    .p1b1 {
+        height: 30rem;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .box-content {
+        margin: 0.5rem 2rem;
+    }
+
+    .box h2 {
+        font-size: 1.8rem;
+    }
+
+    .footer-content {
+        flex-direction: row;
+        justify-content: space-between;
+        height: auto;
+        padding-top: 2.5rem;
+    }
+
+    .footer-content a {
+        padding: 1rem 0;
+    }
+
+    .footerhead {
+        font-size: 1.6rem;
+    }
+
+    .footer-pannel-3, .foot-pannel-4 {
+        height: auto;
+        padding: 1.5rem;
+    }
+
+    .logo-1 {
+        height: 2.5rem;
+    }
+
+    .pages, .copyright, .website-clonner {
+        font-size: 0.9rem;
+        padding-top: 1.5rem;
+    }
+}
