@@ -292,16 +292,19 @@ ul a{
 
 /* Mobile Devices (up to 767px) */
 @media (max-width: 600px){
-    .navbar {
+    .navbar { 
+        width: 30rem;
+        block-size: auto;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
     }
-    .nav-address {
-        padding: 0 0.4rem 0 0.4rem;
+    .nav-address {font-size: 1px;
+        height: fit-content;
+        padding: 0 1rem;
     }
-    .nav-signin{
-        padding: 0 0.3rem 0 1rem;
+    .nav-signin{ font-size: 1px;
+        padding: 0 1rem 0.5rem 1rem;
     }
     .nav-cart{
         display: flex;
@@ -317,12 +320,12 @@ ul a{
     }
 
     .logo {
-        height: 2rem;
+        height: 20rem;
         width: auto;
     }
 
     .hero-section{
-        height: 15rem;
+        height: 10rem;
         background-size: 100%;
         background-repeat: no-repeat;
         padding-bottom: 0;
@@ -330,7 +333,7 @@ ul a{
 
     .nav-search {
         height: 2rem;
-        width: 40%;
+        width: 100%;
         margin: 1rem 0;
         align-items: stretch;
     }
